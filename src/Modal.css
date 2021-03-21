@@ -8,7 +8,7 @@ body {
   align-items: center;
 }
 
-.modal {
+.mmodal {
   width: 500px;
   background: white;
   border: 1px solid #ccc;
@@ -35,27 +35,6 @@ body {
   }
   @media (prefers-reduced-motion) {
     offset-path: none;
-  }
-  h2 {
-    border-bottom: 1px solid #ccc;
-    padding: 1rem;
-    margin: 0;
-  }
-  .content {
-    padding: 1rem;
-  }
-  .actions {
-    border-top: 1px solid #ccc;
-    background: #eee;
-    padding: 0.5rem 1rem;
-    button {
-      border: 0;
-      background: #78f89f;
-      border-radius: 5px;
-      padding: 0.5rem 1rem;
-      font-size: 0.8rem;
-      line-height: 1;
-    }
   }
 }
 

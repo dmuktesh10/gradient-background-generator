@@ -9,11 +9,11 @@ function Card(props) {
   };
   return (
     <div>
-      <div onClick={handleCardClick} className="Card"></div>
-      <Modal show={showFlg}>
-        <div>Modal Content</div>
-      </Modal>
-
+      <div onClick={handleCardClick} className="Card">
+        <Modal show={showFlg}>
+          <div>Modal Content</div>
+        </Modal>
+      </div>
     </div>
   );
 }

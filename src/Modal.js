@@ -5,6 +5,7 @@ function Modal(props) {
   const onClose = (e) => {
     props.onClose && props.onClose(e);
   };
+  
   if (props.show) {
     return (
       <div className="mmodal" id="modal">

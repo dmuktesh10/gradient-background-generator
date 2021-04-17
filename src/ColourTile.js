@@ -1,12 +1,17 @@
 function ColourTile(props){
   const styleObj = {
     backgroundColor: props.tileColour,
-    height: "20px",
-    width: "20px",
+    height: "40px",
+    width: "40px",
     display: 'inline-block'
   };
+  console.log(props)
+  const handleClick = () => {
+    props.onColorChange(props.tileColour)
+    // props.onChangeCleanup()
+  }
   return(
-    <div style={styleObj}>
+    <div onClick={handleClick} style={styleObj}>
       
     </div>
   )
